@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Fucking Companies !!!
+title: Tony Wang
 email: tonywang.data@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  通过 Github 记录那些你遇到的令你恶心的公司，建立一个坏公司黑名单！！！
+  Blog related to programming and reading
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tonywang.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -26,14 +26,12 @@ repository: tonywangcn/the_fucking_company
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-sitemap
-  - jekyll-paginate-v2
 
 gems:
   - jekyll-paginate-v2
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-github-metadata
 
 permalink: /:year/:month/:title.html
 
@@ -41,7 +39,7 @@ pagination:
   enabled: true
   debug: true
   # collection: 'post'
-  per_page: 2
+  per_page: 5
   permalink: '/page/:num/'
   title: ':title - page :num of :max'
   limit: 0
