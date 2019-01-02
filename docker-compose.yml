@@ -10,8 +10,8 @@ services:
       - "./:/srv/jekyll"
     ports:
       - "4000:4000"
-    command: ["tail", "-f", "/dev/null"]
-    # command: ["bundle", "exec", "jekyll", "serve"]
+    # command: ["tail", "-f", "/dev/null"]
+    command: ["bundle", "exec", "jekyll", "serve"]
     env_file: dev.env
     logging:
       driver: "json-file"
