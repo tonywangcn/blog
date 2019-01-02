@@ -30,7 +30,24 @@ plugins:
   - jekyll-feed
   - jekyll-github-metadata
   - jekyll-sitemap
+  - jekyll-paginate-v2
 
+gems:
+  - jekyll-paginate-v2
+
+permalink: /:year/:month/:title.html
+
+pagination:
+  enabled: true
+  debug: true
+  # collection: 'post'
+  per_page: 5
+  offset: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 port: 4000
 host: 0.0.0.0
