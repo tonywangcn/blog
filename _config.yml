@@ -22,8 +22,8 @@ url: "https://tonywang.io" # the base hostname & protocol for your site, e.g. ht
 
 google_analytics: UA-39691010-9
 
-# github_username:  tonywangcn
-# repository: tonywangcn/the_fucking_company
+github_username:  tonywangcn
+repository: tonywangcn/blog
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
