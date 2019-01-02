@@ -14,20 +14,6 @@ layout: default
   {{ content }}
   {{ paginator }}
   <ul class="post-list">
-    {% for post in site.pages %}
-      {% if post.url contains "posts" %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h3>
-      </li>
-      
-      {% endif %}
-    {% endfor %}
-  </ul>
-  <ul class="post-list">
     <!-- 
         Here is the main paginator logic called.
         All calls to site.posts should be replaced by paginator.posts 
