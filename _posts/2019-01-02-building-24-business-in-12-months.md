@@ -5,7 +5,7 @@ categories: 精益创业
 last_modified_at: 2019-01-02T14:36:36.917764+00:00
 date: 2019-01-02T14:36:36.917764+00:00
 permalink: /posts/building-24-business-in-12-months/
-title: 精益创业，快速原型验证想法，将技术展维持在一个很小的可维护范围
+title: 精益创业，快速原型验证想法，将技术栈维持在一个很小的可维护范围
 
 ---
 
