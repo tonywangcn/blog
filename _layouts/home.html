@@ -25,9 +25,8 @@ layout: default
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
-        {% assign contents = post.content | split: "[" %}
-        <!-- {{ contents }} -->
-        <span> {{ contents[0] | truncate: 120 }} </span>
+        {% assign contents = post.content | split: "<a" %}
+        <span> {{ contents.first }} </span>
       </li>
     {% endfor %}
   </ul>

@@ -9,7 +9,7 @@ services:
     volumes:
       - "./:/srv/jekyll"
     ports:
-      - "4000:4000"
+      - "8050:4000"
     # command: ["tail", "-f", "/dev/null"]
     command: ["bundle", "exec", "jekyll", "serve"]
     env_file: dev.env
